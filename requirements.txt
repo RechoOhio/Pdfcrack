@@ -1,0 +1,1 @@
+pip install PyDF2 tqdm
