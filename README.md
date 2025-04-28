@@ -14,10 +14,10 @@ pip install PyPDF2 tqdm
 ```
 ## Dictionary attack, password if faster common
 ```
-python pdf_cracker.py encrypted.pdf -w wordlist.txt
+python pdfcrack.py encrypted.pdf -w wordlist.txt
 ```
 ## Brute force attack, slower but more thorough 
 ```
-python pdf_cracker.py encrypted.pdf -b -l 5
+python pdfcrack.py encrypted.pdf -b -l 5
 ```
 ## Don't forget thanks me Later
